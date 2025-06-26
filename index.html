@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anish Kumar Sinha - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="flex justify-between items-center py-2 border-b border-gray-300 text-sm font-bold font-montserrat">
+      <div class="flex items-center gap-1 uppercase tracking-wide text-orange-500">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 0L13.09 6.26L19.64 6.91L14.5 10.97L15.91 17.45L12 14L8.09 17.45L9.5 10.97L4.36 6.91L10.91 6.26L12 0Z" />
+        </svg>
+        ANISH KUMAR SINHA
+      </div>
+      <nav>
+        <a href="#" class="ml-5 text-gray-600 hover:text-orange-500 active:text-orange-500">Home</a>
+        <a href="#about" class="ml-5 text-gray-600 hover:text-orange-500">About</a>
+        <a href="#resume" class="ml-5 text-gray-600 hover:text-orange-500">Resume</a>
+        <a href="#skills" class="ml-5 text-gray-600 hover:text-orange-500">Skills</a>
+        <a href="#projects" class="ml-5 text-gray-600 hover:text-orange-500">Projects</a>
+        <a href="#contact" class="ml-5 text-gray-600 hover:text-orange-500">Contact</a>
+      </nav>
+      <button id="darkToggleBtn" class="dark-toggle-btn" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="intro">
+      <section class="left-intro" aria-label="Introduction and contact options">
+        
+
+        <nav class="social-icons" aria-label="Social media links">
+          <a href="https://facebook.com/anish" target="_blank" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M22.675 0h-21.35C.6 0 0 .6 0 1.325v21.351C0 23.4.6 24 1.326 24H12.82v-9.294H9.692v-3.62h3.128V8.414c0-3.1 1.894-4.787 4.659-4.787 1.325 0 2.463.1 2.796.144v3.243l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.31h3.59l-.467 3.619h-3.124V24h6.116C23.4 24 24 23.4 24 22.675V1.324C24 .6 23.4 0 22.675 0z" />
+            </svg>
+          </a>
+
+          <a href="https://linkedin.com/in/anishkumar" target="_blank" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M22.23 0H1.766C.792 0 0 .774 0 1.728v20.543C0 23.175.792 24 1.766 24H22.23c.98 0 1.77-.82 1.77-1.728v-20.54C24 .77 23.21 0 22.23 0zM7.06 20.452H3.54v-11.15h3.52v11.15zm-1.76-12.74a2.035 2.035 0 1 1 0-4.07 2.039 2.039 0 0 1 0 4.07zm14.32 12.74h-3.52v-5.97c0-1.43-.51-2.4-1.78-2.4-0.97 0-1.55.66-1.81 1.3-.09.22-.11.53-.11.84v6.24h-3.52s.05-10.12 0-11.15h3.52v1.58c.47-.72 1.32-1.75 3.21-1.75 2.34 0 4.1 1.53 4.1 4.82v6.51z" />
+            </svg>
+          </a>
+
+          <a href="https://github.com/anishkumar" target="_blank" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.12.82-.27.82-.6 0-.3 0-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.42-1.34-1.8-1.34-1.8-1.1-.75.08-.74.08-.74 1.22.08 1.86 1.25 1.86 1.25 1.08 1.84 2.83 1.3 3.52.98.1-.75.42-1.3.76-1.59-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.46-2.39 1.22-3.23-.12-.3-.53-1.52.12-3.17 0 0 1-.32 3.28 1.22a11.5 11.5 0 0 1 6 0c2.28-1.54 3.28-1.22 3.28-1.22.66 1.65.24 2.87.12 3.17.76.85 1.22 1.92 1.22 3.23 0 4.64-2.8 5.63-5.47 5.93.44.38.84 1.12.84 2.27 0 1.65-.02 2.97-.02 3.37 0 .32.22.73.82.6A12.01 12.01 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+          </a>
+
+          <!-- Telegram -->
+            <a href="https://t.me/anishkumar" target="_blank" aria-label="Telegram">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M9.04 15.6L8.7 19.1c.49 0 .71-.21.97-.46l2.33-2.23 4.83 3.52c.89.49 1.52.23 1.74-.82l3.16-14.8h.01c.27-1.27-.45-1.77-1.29-1.47L1.57 9.63c-1.24.49-1.22 1.2-.21 1.52l5.91 1.84L18.64 5.9c.42-.27.8-.12.49.17L9.04 15.6z"/>
+            </svg>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://instagram.com/anishkumar" target="_blank" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.06 1.95.24 2.41.41a4.86 4.86 0 011.75 1.02 4.86 4.86 0 011.02 1.75c.17.46.35 1.24.41 2.41.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.06 1.17-.24 1.95-.41 2.41a4.86 4.86 0 01-1.02 1.75 4.86 4.86 0 01-1.75 1.02c-.46.17-1.24.35-2.41.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.06-1.95-.24-2.41-.41a4.86 4.86 0 01-1.75-1.02 4.86 4.86 0 01-1.02-1.75c-.17-.46-.35-1.24-.41-2.41C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.06-1.17.24-1.95.41-2.41a4.86 4.86 0 011.02-1.75A4.86 4.86 0 015.45 2.7c.46-.17 1.24-.35 2.41-.41C8.42 2.21 8.8 2.2 12 2.2m0-2.2C8.74 0 8.31.01 7.04.07 5.64.14 4.57.35 3.7.67A7.07 7.07 0 001.4 2.27 7.07 7.07 0 00.67 3.7C.35 4.57.14 5.64.07 7.04.01 8.31 0 8.74 0 12s.01 3.69.07 4.96c.07 1.4.28 2.47.6 3.34.33.92.77 1.65 1.44 2.32a7.07 7.07 0 002.32 1.44c.87.32 1.94.53 3.34.6 1.27.06 1.69.07 4.96.07s3.69-.01 4.96-.07c1.4-.07 2.47-.28 3.34-.6a7.07 7.07 0 002.32-1.44 7.07 7.07 0 001.44-2.32c.32-.87.53-1.94.6-3.34.06-1.27.07-1.69.07-4.96s-.01-3.69-.07-4.96c-.07-1.4-.28-2.47-.6-3.34A7.07 7.07 0 0022.6 1.4a7.07 7.07 0 00-2.32-1.44C19.42.35 18.35.14 16.96.07 15.69.01 15.26 0 12 0zM12 5.8A6.2 6.2 0 105.8 12 6.2 6.2 0 0012 5.8m0 10.2A4 4 0 1116 12a4 4 0 01-4 4zm5.65-10.78a1.44 1.44 0 11-1.44-1.44 1.44 1.44 0 011.44 1.44z"/>
+            </svg>
+            </a>
+
+            <!-- Twitter -->
+            <a href="https://twitter.com/anishkumar" target="_blank" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M23.954 4.569a10.01 10.01 0 01-2.825.775 4.958 4.958 0 002.163-2.723 9.867 9.867 0 01-3.127 1.184 4.927 4.927 0 00-8.39 4.49A13.978 13.978 0 011.671 3.149a4.822 4.822 0 00-.666 2.475 4.92 4.92 0 002.188 4.1A4.904 4.904 0 01.964 9.03v.06a4.937 4.937 0 003.946 4.827 4.996 4.996 0 01-2.212.084 4.937 4.937 0 004.604 3.417A9.869 9.869 0 010 21.539a13.945 13.945 0 007.548 2.209c9.058 0 14.009-7.496 14.009-13.986 0-.21 0-.423-.015-.634A10.025 10.025 0 0024 4.59z"/>
+            </svg>
+            </a>
+
+
+          <a href="mailto:anish@example.com" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M4 4h16v16H4z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </a>
+        </nav>
+
+        <div class="main-info">
+            <span class="hello-label" tabindex="0">Hello!</span>
+            <h1>I'm Anish <span class="hand-emoji" aria-hidden="true">👋</span></h1>
+            <p class="subtext">UI/UX Designer, Front-End Developer & Thinker.<br />Based in India.</p>
+            <div class="btn-group">
+            <button class="btn-download" id="downloadCV">Download CV</button>
+            <button class="btn-contact" id="contactBtn">Get In Touch!</button>
+            </div>
+        </div>
+      </section>
+
+      <section class="photo-wrapper" aria-label="Anish Kumar Sinha photo">
+        <div class="blob-yellow"></div>
+        <img class="photo-main" src="034737059c1c67ed1065fe63dc6c70b0ba6ed488.png" alt="Portrait of Anish Kumar Sinha" />
+        <div class="vertical-watermark">anishkumar.sinha@protonmail.com</div>
+        <div class="accent-line-vertical"></div>
+      </section>
+    </main>
+
+    <!-- About Section (Second Page from Figma) -->
+    <section id="about" class="mt-20">
+      <h2 class="text-2xl font-bold mb-4">This is it. :)</h2>
+      <p class="text-sm text-gray-700 leading-relaxed max-w-2xl">
+        Anish Kumar Sinha is a creative UI/UX Designer & Front-End Developer on a passion for designing beautiful and functional user experiences. Skilled in Figma, Webflow, HTML, CSS, JS, and component libraries, he builds accessible and engaging digital products.
+        <br /><br />
+        He holds a Bachelor’s degree in Computer Applications. Currently, he resides in India. Anish is known for his clean visual design, consistent layouts, and thoughtful interaction patterns.
+        <br /><br />
+        When he's not designing, you'll find him enjoying photography, writing short pieces, or exploring new food spots around town. Currently working on a UI kit to streamline product design!
+      </p>
+    </section>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
