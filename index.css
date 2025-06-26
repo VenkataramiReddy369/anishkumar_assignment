@@ -20,7 +20,7 @@ body.dark-mode {
   padding: 0 20px;
 }
 
-/* ========== HEADER ========== */
+
 header {
   padding: 1rem 0;
   display: flex;
@@ -62,7 +62,7 @@ header .dark-toggle-btn:hover {
   color: #ff7900;
 }
 
-/* ========== INTRO SECTION ========== */
+
 .intro {
   display: flex;
   justify-content: space-evenly;
@@ -72,7 +72,7 @@ header .dark-toggle-btn:hover {
   gap: 3rem;
   position: relative;
   padding-top: 60px;
-  /* border: 1px solid #000; */
+
 }
 
 .main-info {
@@ -217,7 +217,7 @@ body.dark-mode .social-icons a {
   color: #eee;
 }
 
-/* ========== PHOTO SECTION ========== */
+
 .photo-wrapper {
   position: relative;
   width: 280px;
@@ -276,7 +276,7 @@ body.dark-mode .social-icons a {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* ========== SECOND SECTION ========== */
+
 .second-section {
   margin-top: 6rem;
   padding-bottom: 6rem;
@@ -302,8 +302,6 @@ body.dark-mode .second-section h2 {
 body.dark-mode .second-section p {
   color: #ccc;
 }
-
-/* ========== MEDIA ========== */
 @media (max-width: 950px) {
   .intro {
     flex-direction: column;
